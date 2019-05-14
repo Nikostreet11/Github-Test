@@ -1,7 +1,7 @@
 
 #include <iostream>
 
-#include "TestFolder/TestClass.hpp"
+#include "../Source/TestFolder/TestClass.hpp"
 
 int main()
 {

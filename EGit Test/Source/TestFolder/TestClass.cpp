@@ -1,5 +1,5 @@
 
-#include "TestClass.hpp"
+#include "../../Source/TestFolder/TestClass.hpp"
 
 TestClass::TestClass()
 {
