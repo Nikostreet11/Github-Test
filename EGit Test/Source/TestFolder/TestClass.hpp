@@ -4,13 +4,13 @@
 
 #include <iostream>
 #include <ctime>
+#include <string>
 
 class TestClass
 {
 public:
-	// Constructor
+	// Constructor / Destructor
 	TestClass();
-	// Destructor
 	virtual ~TestClass();
 
 	// Functions
@@ -18,9 +18,11 @@ public:
 	void setCurrentTime();
 
 private:
+	// Initialization
 	void initVariables();
 
 	// Variables
+	std::string name;
 	std::time_t time;
 	std::tm* localtime;
 };
